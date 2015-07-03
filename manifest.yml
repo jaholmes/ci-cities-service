@@ -4,7 +4,7 @@ applications:
   memory: 512M
   instances: 1
   path: build/libs/ci-cities-service-1.0.jar
-  timeout: 180
+  timeout: 185
   services:
   - cities-db
   host: ci-cities-service-${random-word}
